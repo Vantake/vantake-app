@@ -5,7 +5,7 @@ import { useRouter } from 'next/navigation'
 import { AppShell } from '@/components/layout/app-shell'
 import { Button } from '@/components/ui/button'
 import { Skeleton } from '@/components/ui/skeleton'
-import { cn } from '@/lib/utils'
+import { cn } from '@/lib/utils' 
 import { Wallet, TrendingUp, Trophy, Target, Zap, RefreshCw, Star } from 'lucide-react'
 import {
   BarChart,
