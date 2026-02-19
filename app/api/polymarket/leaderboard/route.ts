@@ -6,7 +6,7 @@ export async function GET(request: NextRequest) {
     const searchParams = request.nextUrl.searchParams
     
     const category = searchParams.get('category') as LeaderboardCategory | null
-    const timePeriod = searchParams.get('timePeriod') as LeaderboardTimePeriod | null
+    const timePeriod = searchParams.get('timePeriod') as LeaderboardTimePeriod | null 
     const orderBy = searchParams.get('orderBy') as 'PNL' | 'VOL' | null
     const limit = searchParams.get('limit')
     const offset = searchParams.get('offset')
