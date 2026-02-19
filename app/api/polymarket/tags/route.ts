@@ -7,7 +7,7 @@ export async function GET() {
     const res = await fetch(`${GAMMA_API_BASE}/tags`, {
       headers: {
         'Accept': 'application/json',
-      },
+      }, 
       next: { revalidate: 3600 } // Cache for 1 hour
     }) 
 
