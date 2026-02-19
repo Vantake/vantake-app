@@ -7,7 +7,7 @@ export async function GET(request: NextRequest) {
     const searchParams = request.nextUrl.searchParams
     const tokenId = searchParams.get('token_id')
     const interval = searchParams.get('interval') || '1w'
-    const fidelity = searchParams.get('fidelity') || '60'
+    const fidelity = searchParams.get('fidelity') || '60' 
 
     if (!tokenId) {
       return NextResponse.json(
