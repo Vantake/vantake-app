@@ -2,7 +2,7 @@ import { NextRequest, NextResponse } from 'next/server'
 
 const GAMMA_API_BASE = 'https://gamma-api.polymarket.com'
 
-export async function GET(request: NextRequest) {
+export async function GET(request: NextRequest) { 
   try {
     const searchParams = request.nextUrl.searchParams
     const url = new URL(`${GAMMA_API_BASE}/events`)
