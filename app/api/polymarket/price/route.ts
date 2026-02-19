@@ -6,7 +6,7 @@ export async function GET(request: NextRequest) {
   try {
     const searchParams = request.nextUrl.searchParams
     const tokenId = searchParams.get('token_id')
-    const side = searchParams.get('side')
+    const side = searchParams.get('side') 
 
     if (!tokenId || !side) {
       return NextResponse.json(
