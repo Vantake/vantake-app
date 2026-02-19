@@ -14,7 +14,7 @@ import {
   type LeaderboardTrader,
   formatVolume,
   timeAgo,
-  normalizeTimestamp,
+  normalizeTimestamp, 
 } from '@/lib/polymarket-api'
 import { cn } from '@/lib/utils'
 import {
