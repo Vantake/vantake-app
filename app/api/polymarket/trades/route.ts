@@ -5,7 +5,7 @@ export async function GET(request: NextRequest) {
   try {
     const searchParams = request.nextUrl.searchParams
     
-    const user = searchParams.get('user')
+    const user = searchParams.get('user') 
     const market = searchParams.get('market')
     const limit = searchParams.get('limit')
     const offset = searchParams.get('offset')
