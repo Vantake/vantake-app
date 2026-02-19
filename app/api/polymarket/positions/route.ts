@@ -6,9 +6,9 @@ export async function GET(request: NextRequest) {
     const searchParams = request.nextUrl.searchParams
     
     const user = searchParams.get('user')
-    if (!user) {
+    if (!user) { 
       return NextResponse.json(
-        { error: 'User address is required' },
+        { error: 'User address is required' }, 
         { status: 400 }
       )
     }
