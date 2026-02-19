@@ -9,7 +9,7 @@ export async function GET(request: NextRequest) {
 
     if (!tokenId) {
       return NextResponse.json(
-        { error: 'Missing token_id parameter' },
+        { error: 'Missing token_id parameter' }, 
         { status: 400 }
       )
     }
