@@ -9,7 +9,7 @@ import { cn } from '@/lib/utils'
 import {
   type LeaderboardTrader,
   formatVolume,
-  formatPnl,
+  formatPnl, 
   formatAddress,
   mapCategoryToApi,
   mapTimeframeToApi,
