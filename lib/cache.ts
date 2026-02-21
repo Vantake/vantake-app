@@ -7,3 +7,4 @@ export const REVALIDATE = {
   leaderboard: 30,    // seconds
   trader: 30,         // seconds
 } as const
+ 
