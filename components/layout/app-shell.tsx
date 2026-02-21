@@ -8,7 +8,7 @@ interface AppShellProps {
   title?: string
   subtitle?: string
 }
-
+ 
 export function AppShell({ children, title, subtitle }: AppShellProps) {
   return (
     <div className="min-h-screen bg-background grid-background">
