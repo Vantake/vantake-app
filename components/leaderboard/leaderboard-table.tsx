@@ -4,7 +4,7 @@ import { useRouter } from 'next/navigation'
 import { cn } from '@/lib/utils'
 import {
   type LeaderboardTrader,
-  formatVolume,
+  formatVolume, 
   formatPnl,
   formatAddress,
   mapCategoryToApi,
