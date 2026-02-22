@@ -8,7 +8,7 @@ create table if not exists public.profiles (
   created_at timestamptz default now(),
   updated_at timestamptz default now()
 );
-
+ 
 alter table public.profiles enable row level security;
 
 drop policy if exists "profiles_select_own" on public.profiles;
