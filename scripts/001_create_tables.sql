@@ -5,7 +5,7 @@ create table if not exists public.profiles (
   email text,
   polymarket_wallet text,
   telegram_handle text,
-  created_at timestamptz default now(),
+  created_at timestamptz default now(), 
   updated_at timestamptz default now()
 );
 
