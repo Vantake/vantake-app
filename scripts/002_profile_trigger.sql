@@ -6,7 +6,7 @@ security definer
 set search_path = public
 as $$
 begin
-  insert into public.profiles (id, email, display_name)
+  insert into public.profiles (id, email, display_name) 
   values (
     new.id,
     new.email,
