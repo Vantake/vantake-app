@@ -4,7 +4,7 @@ import { useMemo } from 'react'
 import { cn } from '@/lib/utils'
 
 /**
- * Generates a deterministic gradient avatar from a wallet address.
+ * Generates a deterministic gradient avatar from a wallet address. 
  * Uses only monochrome tones (black / white / grays) to match the site palette.
  */
 
