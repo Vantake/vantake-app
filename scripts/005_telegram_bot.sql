@@ -4,7 +4,7 @@ CREATE TABLE IF NOT EXISTS public.telegram_linking_codes (
   user_id uuid NOT NULL REFERENCES auth.users(id) ON DELETE CASCADE,
   code text NOT NULL UNIQUE,
   created_at timestamptz DEFAULT now(),
-  expires_at timestamptz DEFAULT (now() + interval '30 minutes'),
+  expires_at timestamptz DEFAULT (now() + interval '30 minutes'), 
   used boolean DEFAULT false
 );
 
