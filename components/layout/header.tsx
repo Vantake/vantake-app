@@ -8,7 +8,7 @@ import { Button } from '@/components/ui/button'
 import { AuthButton } from '@/components/auth/auth-button'
 import {
   DropdownMenu,
-  DropdownMenuContent,
+  DropdownMenuContent, 
   DropdownMenuItem, 
   DropdownMenuTrigger,
   DropdownMenuSeparator,
