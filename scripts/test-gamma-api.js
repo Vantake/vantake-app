@@ -9,7 +9,7 @@ const tests = [
   { name: 'Markets sorted by volume', url: 'https://gamma-api.polymarket.com/markets?limit=3&active=true&closed=false&order=volume&ascending=false' },
   { name: 'Markets sorted by volume24hr', url: 'https://gamma-api.polymarket.com/markets?limit=3&active=true&closed=false&order=volume24hr&ascending=false' },
 ]
-
+ 
 for (const test of tests) {
   try {
     const res = await fetch(test.url)
