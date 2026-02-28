@@ -8,7 +8,7 @@ async function main() {
   console.log('Bot info:', JSON.stringify(me, null, 2));
 
   if (!me.ok) {
-    console.log('ERROR: Bot token is invalid!');
+    console.log('ERROR: Bot token is invalid!'); 
     return;
   }
   console.log(`Bot @${me.result.username} is alive!\n`);
