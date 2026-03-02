@@ -9,25 +9,33 @@
 
 VANTAKE is a high-signal analytics platform built for prediction markets, focused on trader performance intelligence and capital flow analysis.
 
-The platform identifies:
-
-- High-ROI traders  
-- Consistent outperformers  
-- Early smart money positioning  
-- Structural market inefficiencies  
-
-Designed for users who prioritize data, clarity, and execution edge.
-
 ---
 
-## Vision
+Our Project Vision right now:
+
+Q1 — AI Copytrading
+– Smart wallet tracking (all categories)
+– Real-time capital alerts
+– Push TG notifications for smart money moves
+– AI Copytrading (end of Q1)
+
+Q2 — Mobile
+– Mobile App (iOS & Android)
+– Rewards System
+– Referral System
+– AI Copytrading on mobile
+
+Q3 — Pro Subscriptions Layer
+– Capital Engine 2.0
+– Advanced execution tools
+– Paid Pro Tier
+– Community Airdrop & Pro Access Distribution
 
 VANTAKE aims to become the analytics backbone for prediction markets.
 
-Not a dashboard.  
-An intelligence engine.
-
 ---
+
+More info Soon.
 
 ## License
 
