@@ -25,6 +25,7 @@ Q2 — Mobile
 – Referral System
 – AI Copytrading on mobile
 
+
 Q3 — Pro Subscriptions Layer
 – Capital Engine 2.0
 – Advanced execution tools
